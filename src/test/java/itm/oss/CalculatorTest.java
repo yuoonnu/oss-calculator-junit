@@ -49,7 +49,7 @@ class CalculatorTest {
     @Test
     @DisplayName("Testing function multiply")
     void testMultiply(){
-        assertEquals(25, multiply(5, 5), "5 * 5  should be 25.");
+        assertEquals(25, calc.multiply(5, 5), "5 * 5  should be 25.");
     }
 
 }
