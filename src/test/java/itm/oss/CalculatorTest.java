@@ -47,9 +47,9 @@ class CalculatorTest {
     }
 
     @Test
-    @DisplayName("Failed testing to check CI")
-    void failedTest(){
-        assertEquals(11, add(5, 5), "Fail!");
+    @DisplayName("Testing function multiply")
+    void testMultiply(){
+        assertEquals(25, add(5, 5), "5 * 5  should be 25.");
     }
 
 }
